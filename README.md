@@ -5,6 +5,16 @@
 </div>
 <h1 align="center">Markdown Nice</h1>
 
+
+## 使用
+```shell
+# build docker
+docker build -t markdown-nice .
+# start server
+docker run -p 3000:3000 markdown-nice
+```
+启动成功后就可以通过浏览器访问http://localhost:3000/来打开markdown-nice。
+
 ## 简介
 
 - 支持自定义样式的 Markdown 编辑器
