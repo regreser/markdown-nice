@@ -4,9 +4,9 @@ LABEL maintainer="Regres"
 LABEL version="0.0.1"
 ENV REFRESHED_AT 2022-08-11
 
-RUN npm install
 COPY . /opt/markdown-nice
 WORKDIR /opt/markdown-nice
+RUN npm install
 
 EXPOSE 3000
 
